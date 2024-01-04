@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    width: 700px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    margin-right: 2px;
+    outline: none;
+    font-size: 25px;
+    
+}
+
+.add {
+    background-color: rgb(255, 89, 0);
+    width: 95px;
+    height: 45px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: aliceblue;
+    margin-left: -30px;
+    cursor: pointer;
+    
+}
+
+div .form {
+    background-color: rgb(227, 226, 226);
+    padding: 15px;
+    width: 850px;
+    height: 50px;
+    margin: 20px auto;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+ .tasks {
+    background-color: rgb(227, 226, 226);
+    padding: 15px;
+    padding-bottom:5px ;
+    width: 850px;
+    min-height: 50px;
+    margin: 20px auto;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+    
+} 
+

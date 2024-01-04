@@ -1,0 +1,125 @@
+.center
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* height: 750px; */
+    align-items:center;
+    /* position: absolute; */
+    margin-top:10px ;
+    margin-bottom: 45px;
+}
+.main
+{
+    color: red;
+    background-color: aqua;
+    height: 685px;
+    padding: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 3px solid green;
+    display: flex;
+}
+.img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      
+}
+h2{
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+#file
+{
+    display: none;
+}
+input
+{
+
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+
+}
+button
+{
+    padding: 8px;
+    font-size: large;
+    background-color: burlywood;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    border-color:  burlywood;
+    border-radius: 10px;
+    border-width: 5px;
+    font-weight: bold;
+}
+.upl
+{
+    padding: 10px;
+    background-color: red;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: azure;
+    border-radius: 10px;
+    border-width: 5px;
+    border: 5px outset red;
+}
+a{
+    
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: larger;
+    border: 5px outset cadetblue;
+    font-weight: bold;
+    color: black;
+    background-color:cadetblue;  
+}
+.nan
+{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+body
+{
+
+    background-image: url("Mohamed.png");
+    /* background-color: #cccccc; */
+}
+
+select{
+    width: 220px;
+    height: 32px;
+    margin-left: 3px;
+    font-size: 20px;
+}
+
+body {
+    overflow: hidden;
+}
+label {
+    font-size: 25px;
+}
+
+.id {
+   padding-left:  35px;
+}
+
+.price {
+    padding-left: 11px;
+}
+
+.type {
+    padding-left: 10px;
+}

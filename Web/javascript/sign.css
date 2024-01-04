@@ -1,0 +1,177 @@
+
+
+body{
+    background-image: url(Picture1.jpg);
+    background-size: 144vh;
+    background-position-x: -13vh;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {
+    
+    padding-top: 10px;
+    color: floralwhite;
+    background: black;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+}
+
+div .container {
+    margin: 20px;
+    padding: 15px;
+    
+    
+}
+
+div .account-form{
+    background-color: rgb(0 0 0 / 81%);
+    width: 350px;
+    height: 296px;
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    top: 33%;
+  
+    transform: scale(1.3);
+    
+}
+
+div .inputs  {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:13px;
+}
+
+div .submit {
+   grid-column-start: 1; 
+   grid-column-end: 2; 
+}
+
+.submit input {
+    width: 121px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 0px;
+    font-family: emoji;
+    background-color: #afaeb7;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    margin-top: 9px;
+    margin-right: 50px;
+}
+
+label {
+    font-size: 20px;
+    font-family: monospace;
+    color:floralwhite;
+    
+    
+}
+
+.username input,.password input,.fname input,.lname input,.date input {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    outline: none;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    width: 166px;
+    
+    
+}
+
+
+
+div .sign-up {
+    background-color: black;
+    border-top: 2px solid white;
+}
+
+.sign-up input {
+    height: 31px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    background-color: rgb(255 255 255);
+    border: 2px solid transparent;
+    font-family: emoji;
+}
+
+.sign-up p {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+#name {
+    width: 243px;
+    height: 53px;
+    position: relative;
+    left: 83px;
+    background-color: #2196F3;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    top: -100px;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+    display: none;
+    text-align: start;
+    
+}
+
+#name::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #2196F3 transparent;
+    position: absolute;
+    top: -20px;
+    right: 160px;
+}
+#tag {
+    width: 243px;
+    height: 53px;
+    position: relative;
+    left: 83px;
+    background-color: #2196F3;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    top: -65px;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+      display: none; 
+    text-align: start;
+    
+}
+
+#tag::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #2196F3 transparent;
+    position: absolute;
+    top: -20px;
+    right: 160px;
+}
+
+
+
+div .password  {
+    padding-left: 15px;
+}
+
+div .username {
+    padding-left: 13px;
+}
+
+div .lname {
+    padding-left: 11px;
+}
+
+/* div .wrong {
+    display: none;
+} */
+
+
+
